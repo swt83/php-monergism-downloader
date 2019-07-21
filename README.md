@@ -11,8 +11,8 @@ Total filesize of the downloaded archive is approx 500 MB.
 This script will scan the website for all downloads of type ``ebub`` or ``mobi`` and it will save those files to the ``storage`` directory.
 
 ```
-$ git clone git@github.com:swt83/php-puritan-downloader.git puritan
-$ cd puritan
+$ git clone git@github.com:swt83/php-monergism-downloader.git monergism
+$ cd monergism
 $ composer update
 $ php run
 ```

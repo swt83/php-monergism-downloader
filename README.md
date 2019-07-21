@@ -1,4 +1,4 @@
-# Mongergism
+# Monergism
 
 A PHP script for downloading over 500 Christian ebooks from Monergism.com.
 

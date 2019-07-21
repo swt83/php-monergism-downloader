@@ -1,0 +1,43 @@
+{
+    "name": "travis/app",
+    "description": "",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "Scott Travis",
+            "email": "scott.w.travis@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:swt83/php-cli.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:swt83/php-ex.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:swt83/php-dump.git"
+        },
+        {
+            "type": "vcs",
+            "url": "git@github.com:swt83/php-date.git"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "travis/dump": "dev-master",
+        "travis/cli": "1.0.*",
+        "travis/ex": "1.0.*",
+        "travis/date": "dev-master",
+        "sunra/php-simple-html-dom-parser": "1.5.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "Travis\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}

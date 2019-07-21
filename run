@@ -1,0 +1,22 @@
+<?php
+
+// disable error reporting
+#error_reporting(0);
+
+// boost
+ini_set('memory_limit', -1);
+
+// include composer
+require __DIR__ . '/vendor/autoload.php';
+
+// set timezone
+date_default_timezone_set('America/New_York');
+
+// helper function
+function path($path = null)
+{
+	return __DIR__.'/'.$path;
+}
+
+// run app
+Travis\App::run();

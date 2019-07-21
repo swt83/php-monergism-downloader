@@ -2,7 +2,7 @@
 
 A PHP script for downloading over 500 Christian ebooks from Monergism.com.
 
-The website Monergeism.com offers hundreds of free Christian ebooks, going back as far as Augustine and including the works of many early Reformers.  Downloading all of them would take quite a bit of time, so I wrote this script to download them all automatically.  This script isn't perfect, but it's 99% perfect.
+The website [Monergism.com](https://www.monergism.com/) offers hundreds of free Christian ebooks, going back as far as Augustine and including the works of many early Reformers.  Downloading all of them would take quite a bit of time, so I wrote this script to download them all automatically.  This script isn't perfect, but it's 99% perfect.
 
 Total filesize of the downloaded archive is approx 500 MB.
 
